@@ -32,3 +32,5 @@ cacheSolve <- function(x=matrix(), ...) {
         x$invCache(matInv)
         matInv
 }        
+
+# Credit : Michael James & agstudy via StackOverflow "Returning the inverse matrix from a cached object in R".
